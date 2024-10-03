@@ -1,4 +1,4 @@
-name: build script for hello.c		
+name: build script for quiz.c		
 
 on:							
   push:
