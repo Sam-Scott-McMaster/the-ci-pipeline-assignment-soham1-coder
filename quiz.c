@@ -1,3 +1,9 @@
+/*
+Soham Hajariwala, hajariws, 03/10/2024
+A simple quiz program which has 3 questions and 3 answers
+It will give feedback if the user is correct or incorrect
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
