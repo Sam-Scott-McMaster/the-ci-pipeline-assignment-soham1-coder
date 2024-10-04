@@ -16,7 +16,7 @@ int main(int argc, char *argv[]) {
         return EXIT_FAILURE;
     }
 
-    // If user enters "--help", it provides them instructions on how to use the program
+    // If user enters "quiz", it provides them instructions on how to use the program
     if (argc == 2 && strcmp(argv[1], "quiz") == 0) {
         puts("Usage: quiz [-#] [answer]");
         puts("Try 'quiz --help' for more information");
@@ -32,7 +32,7 @@ int main(int argc, char *argv[]) {
     if (strcmp(argv[1], "quiz") == 0 && strcmp(argv[2], "-1") == 0) {
         if (argc == 3) {
             // Outputs question #1
-            puts("question 1: What is the command to create a new file?");
+            puts("question 1: What is the linux command to create a new file?");
             return EXIT_SUCCESS;
         } else if (argc == 4 && strcmp(argv[3], "touch") == 0) {
             // Outputs "correct" if answer is "touch"
